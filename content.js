@@ -1,9 +1,4 @@
-/*console.log("hi");
-var x = document.getElementsByTagName("P");
-var i=0;
-for (i = 0; i < x.length; i++) {
-    x[i].innerHTML="vah loda";
-}*/
+
 chrome.runtime.onMessage.addListener(msg);
 function msg(message,sender,sendResponse)
 {
