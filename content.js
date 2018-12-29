@@ -12,7 +12,7 @@ selection = window.getSelection();
     var requestURL = 'https://en.wiktionary.org/w/api.php?action=parse&prop=wikitext&format=json&page='+text+'#Verb';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
-    request.responseType = 'jso';
+    request.responseType = 'json';
 	request.send();
 	request.onload = function() {
   var rawdata = request.response;
